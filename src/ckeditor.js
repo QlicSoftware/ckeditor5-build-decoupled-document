@@ -11,14 +11,12 @@ import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import FontSize from '@ckeditor/ckeditor5-font/src/fontsize';
 import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily';
 import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
-import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter';
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
 import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
-import EasyImage from '@ckeditor/ckeditor5-easy-image/src/easyimage';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading';
 import Image from '@ckeditor/ckeditor5-image/src/image';
 import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption';
@@ -31,6 +29,7 @@ import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
+import SimpleUpload from 'ckeditor5-simple-upload/src/simpleupload';
 
 export default class DecoupledEditor extends DecoupledEditorBase {}
 
@@ -41,14 +40,12 @@ DecoupledEditor.builtinPlugins = [
 	FontSize,
 	FontFamily,
 	Highlight,
-	UploadAdapter,
 	Autoformat,
 	Bold,
 	Italic,
 	Strikethrough,
 	Underline,
 	BlockQuote,
-	EasyImage,
 	Heading,
 	Image,
 	ImageCaption,
@@ -60,7 +57,8 @@ DecoupledEditor.builtinPlugins = [
 	MediaEmbed,
 	Paragraph,
 	Table,
-	TableToolbar
+	TableToolbar,
+    SimpleUpload,
 ];
 
 // Editor configuration.

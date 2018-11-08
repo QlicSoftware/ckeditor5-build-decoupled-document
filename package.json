@@ -51,7 +51,8 @@
     "style-loader": "^0.23.0",
     "uglifyjs-webpack-plugin": "^1.2.7",
     "webpack": "^4.15.0",
-    "webpack-cli": "^3.0.8"
+    "webpack-cli": "^3.0.8",
+    "ckeditor5-simple-upload": "^1.0.4"
   },
   "engines": {
     "node": ">=6.9.0",
