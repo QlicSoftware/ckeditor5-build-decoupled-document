@@ -19,7 +19,6 @@ import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading';
 import Image from '@ckeditor/ckeditor5-image/src/image';
-import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption';
 import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle';
 import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar';
 import ImageUpload from '@ckeditor/ckeditor5-image/src/imageupload';
@@ -48,7 +47,6 @@ DecoupledEditor.builtinPlugins = [
 	BlockQuote,
 	Heading,
 	Image,
-	ImageCaption,
 	ImageStyle,
 	ImageToolbar,
 	ImageUpload,
